@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/admin/Desktop/TicTacToeStructured_Final/build/cmake_install.cmake",
+		"C:/Users/admin/Desktop/TicTacToeStructured_Final/build/src/cmake_install.cmake",
+		"C:/Users/admin/Desktop/TicTacToeStructured_Final/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

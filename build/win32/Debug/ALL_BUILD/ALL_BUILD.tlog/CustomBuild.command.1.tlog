@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DESKTOP\TICTACTOESTRUCTURED_FINAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/admin/Desktop/TicTacToeStructured_Final -BC:/Users/admin/Desktop/TicTacToeStructured_Final/build --check-stamp-file C:/Users/admin/Desktop/TicTacToeStructured_Final/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
