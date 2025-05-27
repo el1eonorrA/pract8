@@ -5,6 +5,7 @@ using namespace std;
 void showMenu() {
     while (true) {
         cout << "\n=== TIC-TAC-TOE GAME ===\n";
+         cout << "\n=== TIC-TAC-TOE GAME ===\n";
         cout << "1. Start Game\n";
         cout << "2. Settings\n";
         cout << "3. Game History\n";
